@@ -1,0 +1,89 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-10-09",
+  "summary": {
+    "title": "Modelo de Amenazas PLI",
+    "owner": "Rudy Alexander Pérez Pérez",
+    "description": "Plataforma Logística Integral (PLI): sistema que integra el rastreo GPS de la flota, el despacho y gestión de órdenes, la facturación electrónica con certificación FEL/SAT, pagos e integración bancaria, mediante portal web, aplicación móvil, API Gateway, middleware de integración, bases de datos e infraestructura en la nube. Modelo elaborado con DFD de niveles 0, 1 y 2 y análisis de amenazas STRIDE.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Nivel 0 - Contexto PLI",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "ontexto general de la PLI: usuarios, dispositivos y sistemas externos"
+      },
+      {
+        "id": 1,
+        "title": "DFD Nivel 1A - Acceso, Operación Logística y Telemetría",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Procesos de acceso, despacho y telemetría de flota"
+      },
+      {
+        "id": 2,
+        "title": "DFD Nivel 1B - Facturación, Integración, Administración y Monitoreo",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Procesos de facturación, integración, administración y monitoreo"
+      },
+      {
+        "id": 3,
+        "title": "DFD Nivel 2A - Middleware y Certificación FEL/SAT",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Descomposición del middleware y la certificación fiscal"
+      },
+      {
+        "id": 4,
+        "title": "DFD Nivel 2B - Integración Bancaria.",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Descomposición de la integración con el banco"
+      },
+      {
+        "id": 5,
+        "title": "DFD Nivel 2C - API Gateway, entrada y Autenticación",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Descomposición del API Gateway: entrada y autenticación"
+      },
+      {
+        "id": 6,
+        "title": "DFD Nivel 2D - API Gateway, Validación, Enrutamiento y Auditoría",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Descomposición del API Gateway: validación, enrutamiento y auditoría"
+      }
+    ],
+    "diagramTop": 7,
+    "reviewer": "Catedrático de Seguridad en Aplicaciones - UMG",
+    "threatTop": 0
+  }
+}
